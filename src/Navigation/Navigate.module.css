@@ -1,0 +1,19 @@
+.nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    border: 1px solid grey;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+@media screen {
+    @media (max-width: 749px) {
+        .nav {
+            margin: 0 auto;
+        }
+    }
+}

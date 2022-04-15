@@ -1,0 +1,25 @@
+.hireBlock {
+    height: 250px;
+}
+.hireContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hireBtn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    transition: .4s;
+}
+
+.hireBtn:hover {
+    background: #D4D4D4;
+}

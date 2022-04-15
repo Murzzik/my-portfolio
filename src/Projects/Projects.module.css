@@ -1,0 +1,31 @@
+.projectsBlock {
+    height: 100vh;
+    background: #33183a;
+}
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    color: #F1F0CC;
+}
+
+.projects {
+    border: 1px solid #AE1E36;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/*@media screen {*/
+/*    @media (max-width: 983px) {*/
+/*        .projects {*/
+/*            justify-content: center;*/
+/*        }*/
+/*    }*/
+/*}*/
+
