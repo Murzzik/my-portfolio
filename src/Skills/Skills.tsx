@@ -11,7 +11,8 @@ const Skills = () => {
                 <div className={s.skills}>
                     <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
                     <Skill title={'React'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
-                    <Skill title={'HTML/CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                    <Skill title={'HTML/CSS'}
+                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
                 </div>
             </div>
         </div>

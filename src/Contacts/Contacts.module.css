@@ -1,0 +1,43 @@
+.contactsBlock {
+    background: #33183a;
+}
+
+.contactsContainer {
+    flex-direction: column;
+}
+
+.title {
+    color: navajowhite;
+}
+
+.contactsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: navajowhite;
+    font-weight: 700;
+}
+
+.contactsForm input {
+    width: 250px;
+    margin: 5px;
+}
+
+.contactsForm textarea {
+    width: 250px;
+    height: 100px;
+    resize: none;
+    margin: 5px;
+}
+
+.contactsBtn {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    transition: .4s;
+}
+
+.contactsBtn:hover {
+    background: #D4D4D4;
+}

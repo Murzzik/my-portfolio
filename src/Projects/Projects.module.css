@@ -1,5 +1,4 @@
 .projectsBlock {
-    height: 100vh;
     background: #33183a;
 }
 
@@ -13,7 +12,6 @@
 }
 
 .projects {
-    border: 1px solid #AE1E36;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -21,11 +19,11 @@
     flex-wrap: wrap;
 }
 
-/*@media screen {*/
-/*    @media (max-width: 983px) {*/
-/*        .projects {*/
-/*            justify-content: center;*/
-/*        }*/
-/*    }*/
-/*}*/
+@media screen {
+    @media (max-width: 983px) {
+        .projects {
+            justify-content: center;
+        }
+    }
+}
 

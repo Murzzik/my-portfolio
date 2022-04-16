@@ -1,0 +1,25 @@
+.footerBlock {
+    /*some styles*/
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socialIconsBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.socialIcon {
+    width: 25px;
+    height: 25px;
+    background: #33183a;
+}
+
+.footerCopyright {
+    margin: 20px 0 20px 0;
+}

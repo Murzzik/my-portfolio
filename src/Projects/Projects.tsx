@@ -10,8 +10,10 @@ const Projects = () => {
             <div className={`${style.container} ${s.projectsContainer}`}>
                 <h2 className={s.title}>My Projects</h2>
                 <div className={s.projects}>
-                    <Project title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
-                    <Project title={'Social Media Platform'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                    <Project title={'TodoList'}
+                             description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                    <Project title={'Social Media Platform'}
+                             description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ import s from './Project.module.css'
 const Project = (props: any) => {
     return (
         <div className={s.project}>
-            <div className={s.projectLogo}>
+            <div className={s.imgContainer}>
                 <a href="#">Watch</a>
             </div>
             <h3>{props.title}</h3>

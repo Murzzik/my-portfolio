@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin-left: auto;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
 }
 
 .nav a {
@@ -11,7 +11,7 @@
 }
 
 @media screen {
-    @media (max-width: 749px) {
+    @media (max-width: 849px) {
         .nav {
             margin: 0 auto;
         }

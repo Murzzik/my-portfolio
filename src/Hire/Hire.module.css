@@ -1,6 +1,7 @@
 .hireBlock {
     height: 250px;
 }
+
 .hireContainer {
     display: flex;
     flex-direction: column;
