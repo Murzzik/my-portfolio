@@ -1,4 +1,5 @@
 .Greetings {
+    display: inline-block;
     font-size: 21px;
     font-weight: 500;
     width: 300px;
@@ -11,8 +12,28 @@
 }
 
 .Greetings p {
+    color: #ffe500;
     font-size: 21px;
     font-weight: 702;
+}
+
+.typewriter {
+    overflow: hidden;
+    border-right: .1em solid #ffe500;
+    white-space: nowrap;
+    animation:
+      typing 2s steps(25, end) forwards,
+      blink .8s infinite;
+    }
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 80%}
+}
+
+@keyframes blink {
+    from {border-color: transparent}
+    to {border-color: #ffe500;}
 }
 
 .Greetings .authorName {
