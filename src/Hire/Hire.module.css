@@ -1,4 +1,5 @@
 .hireBlock {
+    background: #ffe500;
     height: 250px;
 }
 
@@ -9,18 +10,34 @@
 }
 
 .title {
-    font-size: 28px;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
     text-align: center;
 }
 
 .hireBtn {
-    width: 100px;
+    width: 150px;
     height: 40px;
+    color: #0c0c0c;
+    font-size: 26px;
+    font-weight: 702;
+    border-radius: 20px;
+    cursor: pointer;
     border: none;
     transition: .4s;
 }
 
 .hireBtn:hover {
-    background: #D4D4D4;
+    background: #0c0c0c;
+    color: #ffe500;
+}
+
+@media screen {
+    @media (max-width: 440px) {
+        .title {
+            font-size: 32px;
+        }
+    }
 }

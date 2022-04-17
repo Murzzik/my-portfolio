@@ -8,10 +8,10 @@ const Main = () => {
             <div className={`${style.container} ${s.mainContainer}`}>
                 <div className={s.Greetings}>
                     <span>Hi There!</span>
-                    <h1>I am Alexander Storozhuk</h1>
+                    <h1>I am <span className={s.authorName}>Alexander Storozhuk</span></h1>
                     <p>Frontend Developer</p>
                 </div>
-                <div className={s.GreetingsPhoto}></div>
+                <div className={s.GreetingsPhoto}>Some cool photo may be <span>here</span></div>
             </div>
         </div>
     );

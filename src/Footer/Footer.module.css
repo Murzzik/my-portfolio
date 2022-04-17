@@ -1,8 +1,9 @@
 .footerBlock {
-    /*some styles*/
+    background: url("../common/images/backgound.png");
 }
 
 .footerContainer {
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +18,7 @@
 .socialIcon {
     width: 25px;
     height: 25px;
-    background: #33183a;
+    cursor: pointer;
 }
 
 .footerCopyright {

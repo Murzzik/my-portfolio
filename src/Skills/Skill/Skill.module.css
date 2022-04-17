@@ -1,16 +1,21 @@
 .skill {
     width: 250px;
-    background: #F1F0CC;
+    background: #0c0c0c;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    padding: 10px 0 10px 0;
+    box-shadow: 1px 2px 3px 2px #0c0c0c;
+    border-radius: 10px;
 }
 
-.icon {
+.skill h3 {
+    font-weight: 900;
+}
+
+.icon img{
     height: 60px;
-    width: 60px;
-    background: #AE1E36;
 }
 
 @media screen {

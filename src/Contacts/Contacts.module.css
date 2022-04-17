@@ -1,5 +1,5 @@
 .contactsBlock {
-    background: #33183a;
+    background: #0c0c0c;
 }
 
 .contactsContainer {
@@ -7,20 +7,27 @@
 }
 
 .title {
-    color: navajowhite;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
 }
 
 .contactsForm {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: navajowhite;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #ffe500;
     font-weight: 700;
 }
 
 .contactsForm input {
     width: 250px;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .contactsForm textarea {
@@ -28,16 +35,25 @@
     height: 100px;
     resize: none;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .contactsBtn {
-    width: 100px;
-    height: 40px;
     margin: 10px;
     border: none;
+    width: 150px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #0c0c0c;
+    font-weight: 702;
+    border-radius: 20px;
     transition: .4s;
+    cursor: pointer;
 }
 
 .contactsBtn:hover {
-    background: #D4D4D4;
+    background: #0c0c0c;
+    color: #ffe500;
+    border: 1px solid #ffe500;
 }

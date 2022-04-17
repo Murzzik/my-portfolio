@@ -1,16 +1,58 @@
 .project {
     width: 350px;
-    background: #F1F0CC;
+    background: #0c0c0c;
+    color: #fff;
     margin: 20px 0 20px 0;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-weight: 900;
 }
 
 .imgContainer {
     width: 100%;
     height: 200px;
-    background: #AE1E36;
+    background: #ffe500;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.motivationText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 902;
+    font-size: 34px;
+    color: #0c0c0c;
+}
+
+.motivationText span {
+    font-size: 52px;
+    color: #fff;
+}
+
+.imgContainer a {
+    display: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #ffe500;
+}
+
+.imgContainer:hover {
+    background: #0c0c0c;
+}
+
+.imgContainer:hover .motivationText {
+    display: none;
+}
+
+.imgContainer:hover a {
+    display: block;
+    zoom: 2.2;
 }
 
 @media screen {

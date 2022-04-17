@@ -5,6 +5,7 @@ const Project = (props: any) => {
     return (
         <div className={s.project}>
             <div className={s.imgContainer}>
+                <div className={s.motivationText}>Some cool project will be <span>HERE</span></div>
                 <a href="#">Watch</a>
             </div>
             <h3>{props.title}</h3>

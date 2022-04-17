@@ -1,5 +1,5 @@
 .projectsBlock {
-    background: #33183a;
+    background: url("../common/images/backgound.png");
 }
 
 .projectsContainer {
@@ -8,11 +8,16 @@
 }
 
 .title {
-    color: #F1F0CC;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
 }
 
 .projects {
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -23,6 +28,11 @@
     @media (max-width: 983px) {
         .projects {
             justify-content: center;
+        }
+    }
+    @media (max-width: 400px) {
+        .title {
+            font-size: 38px;
         }
     }
 }

@@ -1,18 +1,43 @@
-.mainBlock {
-    background: #22070A;
+.Greetings {
+    font-size: 21px;
+    font-weight: 500;
+    width: 300px;
+    color: #FFF
 }
 
-.Greetings {
-    width: 300px;
-    background: #AE1E36;
-    color: #F1F0CC;
+.Greetings h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+}
+
+.Greetings p {
+    font-size: 21px;
+    font-weight: 702;
+}
+
+.Greetings .authorName {
+    font-size: 52px;
+    font-weight: 900;
 }
 
 .GreetingsPhoto {
+    display: flex;
+    align-items: center;
     width: 300px;
     height: 400px;
-    background: #AE1E36;
     margin: 20px 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 702;
+    font-size: 34px;
+    color: #FFF
+}
+
+.GreetingsPhoto span {
+    display: contents;
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #ffe500;
 }
 
 @media screen {
