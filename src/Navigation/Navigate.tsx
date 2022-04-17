@@ -6,10 +6,10 @@ const Navigate = () => {
     return (
         <div className={style.container}>
             <div className={s.nav}>
-                <a href="">Главная</a>
-                <a href="">Скиллы</a>
-                <a href="">Проекты</a>
-                <a href="">Контакты</a>
+                <a href="">MAIN</a>
+                <a href="">Skills</a>
+                <a href="">Projects</a>
+                <a href="">Contacts</a>
             </div>
         </div>
     );
