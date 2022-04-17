@@ -2,9 +2,9 @@ import React from 'react';
 import style from '../common/styles/Container.module.css'
 import s from './Skills.module.css'
 import Skill from "./Skill/Skill";
-import reactLogo from '../common/images/react-logo.png'
-import jsLogo from '../common/images/js-logo.png'
-import cssLogo from '../common/images/css-logo.png'
+import reactLogo from '../common/images/SkillsLogo/react-logo.png'
+import jsLogo from '../common/images/SkillsLogo/js-logo.png'
+import cssLogo from '../common/images/SkillsLogo/css-logo.png'
 
 const Skills = () => {
     return (

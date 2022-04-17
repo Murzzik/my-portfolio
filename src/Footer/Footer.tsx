@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './Footer.module.css';
 import style from "../common/styles/Container.module.css";
-import telegram from '../common/images/telegram.png'
-import viber from '../common/images/viber.png'
-import instagram from '../common/images/instagram.png'
-import facebook from '../common/images/facebook.png'
+import telegram from '../common/images/Icons/telegram.png'
+import viber from '../common/images/Icons/viber.png'
+import instagram from '../common/images/Icons/instagram.png'
+import facebook from '../common/images/Icons/facebook.png'
 
 const Footer = () => {
     return (
